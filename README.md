@@ -1,4 +1,4 @@
-v3.8.0 with the following modifications:
+v3.9.2 with the following modifications:
 * Default presentation changed to inline Markdown
 * Add the current slide number to the URL hash
 
@@ -988,10 +988,10 @@ To enable line numbers, add `data-line-numbers` to your `<code>` tags. If you wa
 ```html
 <pre><code class="hljs" data-line-numbers="4,8-11">
 import React, { useState } from 'react';
- 
+
 function Example() {
   const [count, setCount] = useState(0);
- 
+
   return (
     <div>
       <p>You clicked {count} times</p>
