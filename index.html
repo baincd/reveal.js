@@ -25,32 +25,10 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown
-               data-separator="^---"
-               data-separator-vertical="^\\/"
-               data-separator-notes="^Notes:">
-					<textarea data-template>
-
-<!-- ## Presentation ###################################################### -->
-# Slide 1
-This is `code` here
-* Fragment <!-- .element: class="fragment" style="color: green" -->
-
-Notes: Here are some notes
-\/
-# Slide 1.1
-```java
-public void doSomething() {
-	something();
-}
-```
-
----
-# Slide 2
-
-<!-- ## End Presentation ################################################## -->
-
-					</textarea>
+				<section data-markdown="slides.md"
+				         data-separator="^(---|===)\s*$"
+				         data-separator-vertical="^(\\/|\|\|)\s*$"
+				         data-separator-notes="^Notes?:|::">
 				</section>
 			</div>
 		</div>
