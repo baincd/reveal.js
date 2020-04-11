@@ -1,6 +1,5 @@
 v3.9.2 with the following modifications:
 * Default presentation changed to external Markdown (slides.md)
-* Add the current slide number to the URL hash
 * Add text effects for span grow and shrink fragments ([PR 2338](https://github.com/hakimel/reveal.js/pull/2338))
 * Create sample-slides.md for examples
 
