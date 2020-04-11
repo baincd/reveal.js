@@ -123,8 +123,8 @@ Pointer to the checked out branch
 ### commit-ish
 
 Something that can refer to a commit <!-- .element: class="fragment" -->
-
-### Examples:  <!-- .element: class="fragment" -->
+||
+### commit-ish Examples:  <!-- .element: class="fragment" -->
 * Commit ID: 94d98ff7d89e35c7d5b289ba387cdb0d42b30794  <!-- .element: class="fragment" -->
 * Short Commit ID: 94d98f  <!-- .element: class="fragment" -->
 * Branch Name: my-branch  <!-- .element: class="fragment" -->
@@ -183,6 +183,15 @@ Cause complication if not used carefully, but great tools if used responsibly
 
 Like a saw - this is a great tool, but be careful to not cut off your fingers!
 ||
+## Amend Commit
+::
+* Edit the most recent commit
+* Add or remove changes, edit commit message
+||
+# Demo
+::
+* Example of Amend Commit
+||
 ## Rebase
 ::
 Rebase rewrites the commits as if branched from another point
@@ -211,15 +220,6 @@ Treats it as a patch, maintains author and timestamp
 * Show a cherry pick
 
 * Explain: note that a rebase is really just a series of cherry-picks
-||
-## Amend Commit
-::
-* Edit the most recent commit
-* Add or remove changes, edit commit message
-||
-# Demo
-::
-* Example of Amend Commit
 ||
 ## Summary
 * Helpful Tools
