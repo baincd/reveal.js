@@ -1,0 +1,19 @@
+/* Style copied from ".reveal pre" in black.css.  May need updated to work with other themes */
+.reveal p code {
+  /* display: block; // Disabled to keep inline */
+  position: relative;
+  /* width: 90%; // Disabled because width as no effect with display inline */
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+
+/*
+Note that this does not include color highlighting.
+Color could be added by using hljs classes within a span element.  ex:
+  <code><span class="hljs-keyword">public</span> main</code>
+List of hljs class available here: https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html#stylable-classes
+*/
