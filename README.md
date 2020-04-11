@@ -1,6 +1,7 @@
 v3.9.2 with the following modifications:
 * Default presentation changed to external Markdown (slides.md)
 * Add text effects for span grow and shrink fragments ([PR 2338](https://github.com/hakimel/reveal.js/pull/2338))
+* Disable Header Auto Capitalization
 * Create sample-slides.md for examples
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
